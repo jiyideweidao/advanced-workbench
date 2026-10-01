@@ -1,0 +1,233 @@
+{
+  "id": "website",
+  "order": 1,
+  "name": "网站制作",
+  "en": "Web Development",
+  "icon": "🌐",
+  "color": "#4F7CFF",
+  "tagline": "从一行 HTML 到上线的商业网站",
+  "level": "零基础 → 可独立上线接单",
+  "duration": "约 100 小时 · 建议 8 周",
+  "tags": ["HTML/CSS", "JavaScript", "React", "Node.js", "部署运维"],
+  "goal": "学完后你能：独立设计并上线一个响应式网站，能接手企业官网 / 落地页 / 外贸独立站外包，看得懂也改得动别人的代码。",
+  "overview": [
+    "网站制作是最通用的一门变现技能：企业官网、产品落地页、外贸独立站、个人作品集，需求量大、交付周期短、可以远程交付，也最容易接到第一单。",
+    "正确的学习顺序是：先用 HTML/CSS 做出能看的页面，再用 JavaScript 让它会动，然后用工程化工具和框架提升效率，最后补上后端与部署，形成完整闭环。跳过顺序硬啃框架，是最常见的放弃原因。",
+    "关键心法：不要「学完再做」，而要「做中学」。每学完一个模块，立刻把它用在一个真实页面上。下面每个模块都对应了具体的产出物。"
+  ],
+  "highlights": [
+    { "title": "手写页面不心虚", "desc": "掌握 HTML 语义化与 CSS 布局（Flex / Grid），看到任何设计稿都能拆解成结构。" },
+    { "title": "响应式与移动优先", "desc": "一套代码适配手机 / 平板 / 桌面，这是接商业单的硬门槛。" },
+    { "title": "会写会改 JavaScript", "desc": "能实现表单校验、动态渲染、接口请求等真实交互，而不是只会照着抄。" },
+    { "title": "会用现代工具链", "desc": "Git 版本管理、npm、Vite、React，与真实团队协作方式一致。" },
+    { "title": "能独立部署上线", "desc": "域名、DNS、HTTPS、Vercel / 云服务器部署，交付一个可访问的网址。" },
+    { "title": "具备生意视角", "desc": "懂得如何报价、如何做 SEO、如何把网站当成获客工具而不是漂亮摆设。" }
+  ],
+  "roadmap": [
+    {
+      "stage": "阶段一",
+      "title": "网页基础：把设计稿变成页面",
+      "weeks": "第 1-2 周",
+      "desc": "目标是无压力手写静态页面。这一阶段不要碰任何框架。",
+      "items": ["HTML 语义化标签与文档结构", "CSS 选择器、盒模型、单位与颜色", "Flexbox 与 Grid 布局", "移动优先与媒体查询", "表单、图片、图标与可访问性"],
+      "output": "产出：1 个响应式个人介绍页（手机 + 桌面都好看）"
+    },
+    {
+      "stage": "阶段二",
+      "title": "JavaScript：让页面动起来",
+      "weeks": "第 3-4 周",
+      "desc": "从语法到 DOM 操作，再到异步请求，打通前端核心能力。",
+      "items": ["变量、函数、数组与对象", "DOM 操作与事件处理", "数组方法 map / filter / reduce", "fetch 与 JSON 接口调用", "错误处理与调试技巧"],
+      "output": "产出：1 个待办清单 + 1 个调用公开 API 的天气/汇率小工具"
+    },
+    {
+      "stage": "阶段三",
+      "title": "工程化与框架：用工业方式开发",
+      "weeks": "第 5-6 周",
+      "desc": "学会团队协作方式，进入可交付商业项目的水平。",
+      "items": ["Git 与 GitHub 工作流", "npm 与 Vite 构建工具", "React 组件、状态与路由", "组件拆分与样式方案", "接口联调与环境变量"],
+      "output": "产出：1 个 React 单页应用（如数据看板或商城前台）"
+    },
+    {
+      "stage": "阶段四",
+      "title": "后端与数据：让网站有大脑",
+      "weeks": "第 7 周",
+      "desc": "不用成为后端专家，但要能独立搭出可用的接口和数据库。",
+      "items": ["Node.js 与 Express 基础", "RESTful API 设计", "数据库基础（SQLite / MySQL / Supabase）", "登录鉴权与会话", "表单提交与数据落库"],
+      "output": "产出：1 个带后台的留言 / 预约系统，数据真实入库"
+    },
+    {
+      "stage": "阶段五",
+      "title": "上线与运维：交付一个网址",
+      "weeks": "第 8 周",
+      "desc": "把作品变成能给别人看的资产，并具备接单交付能力。",
+      "items": ["域名注册与 DNS 解析", "HTTPS 与 CDN", "Vercel / Netlify / 云服务器部署", "网站测速与基础 SEO", "备份、日志与监控"],
+      "output": "产出：1 个正式上线的商业级网站 + 一份交付文档"
+    }
+  ],
+  "toc": [
+    {
+      "module": "模块一 · HTML 与 CSS 基础",
+      "hours": "16 小时",
+      "lessons": [
+        { "title": "认识 Web：浏览器、服务器与网页如何工作", "key": ["客户端与服务器", "URL 与 HTTP 请求响应", "开发环境搭建（VS Code + 浏览器）"] },
+        { "title": "HTML 结构与语义化标签", "key": ["文档骨架与 head", "常用标签与语义化", "列表、表格、表单", "图片与多媒体"] },
+        { "title": "CSS 选择器与盒模型", "key": ["选择器与优先级", "margin / border / padding", "box-sizing", "字体、颜色与单位（px / rem / vw）"] },
+        { "title": "布局核心：Flexbox 与 Grid", "key": ["主轴与交叉轴", "常用布局套路", "Grid 网格与自动布局", "常见页面结构拆解"] },
+        { "title": "响应式设计与移动优先", "key": ["viewport 与媒体查询", "断点选择", "流式图片与相对单位", "移动端常见坑"] },
+        { "title": "CSS 进阶与工程化", "key": ["变量与复用", "动画与过渡", "Tailwind 等工具类方案", "CSS 命名规范（BEM）"] }
+      ]
+    },
+    {
+      "module": "模块二 · JavaScript 核心",
+      "hours": "20 小时",
+      "lessons": [
+        { "title": "语言基础", "key": ["变量与作用域", "数据类型与类型转换", "运算符与流程控制", "函数与参数"] },
+        { "title": "数组、对象与常用方法", "key": ["map / filter / reduce", "解构与展开", "模板字符串", "JSON 读写"] },
+        { "title": "DOM 操作与事件", "key": ["查询与修改节点", "事件绑定与冒泡", "表单校验实战", "动态渲染列表"] },
+        { "title": "异步与网络请求", "key": ["回调 → Promise → async/await", "fetch 用法", "跨域与代理", "加载与错误状态处理"] },
+        { "title": "模块化与调试", "key": ["ES Module", "浏览器开发者工具", "console 与断点调试", "常见报错定位"] }
+      ]
+    },
+    {
+      "module": "模块三 · 工程化与 React",
+      "hours": "24 小时",
+      "lessons": [
+        { "title": "Git 与协作", "key": ["提交、分支与合并", "GitHub 与 Pull Request", "冲突解决", ".gitignore 与版本习惯"] },
+        { "title": "现代构建工具", "key": ["Node 与 npm 生态", "Vite 项目初始化", "环境变量", "打包与产物分析"] },
+        { "title": "React 入门", "key": ["JSX 与组件", "props 与 state", "事件与表单受控组件", "条件渲染与列表渲染"] },
+        { "title": "React 进阶", "key": ["useEffect 与生命周期", "自定义 Hook", "路由 React Router", "状态管理入门"] },
+        { "title": "样式与组件库", "key": ["CSS Modules / Tailwind", "组件库选型", "暗色模式", "响应式组件设计"] }
+      ]
+    },
+    {
+      "module": "模块四 · 后端与数据",
+      "hours": "20 小时",
+      "lessons": [
+        { "title": "服务端基础", "key": ["Node.js 运行环境", "Express 路由", "中间件", "接口调试工具"] },
+        { "title": "API 设计", "key": ["RESTful 约定", "请求校验", "统一响应格式", "接口文档"] },
+        { "title": "数据库", "key": ["关系型 vs 非关系型", "SQL 基础增删改查", "Supabase / MySQL 实操", "数据建模入门"] },
+        { "title": "鉴权与安全", "key": ["会话与 Token", "密码哈希", "常见 Web 攻击与防护", "HTTPS 与敏感信息管理"] },
+        { "title": "前后端联调", "key": ["跨域处理", "部署环境差异", "接口缓存", "联调排错流程"] }
+      ]
+    },
+    {
+      "module": "模块五 · 部署上线与商业化",
+      "hours": "20 小时",
+      "lessons": [
+        { "title": "域名与服务器", "key": ["域名注册与备案常识", "DNS 解析记录", "云服务器选购", "宝塔 / 命令行部署"] },
+        { "title": "静态与全栈部署", "key": ["Vercel / Netlify 部署", "GitHub Actions 自动部署", "环境与密钥管理", "自定义域名与 HTTPS"] },
+        { "title": "性能与 SEO", "key": ["首屏加载优化", "图片与字体优化", "基础 SEO 与结构化数据", "站点地图与收录"] },
+        { "title": "交付与接单", "key": ["需求沟通与范围界定", "报价与合同要点", "交付清单与售后", "作品集与获客渠道"] }
+      ]
+    }
+  ],
+  "resources": {
+    "ppt": [
+      { "title": "本站生成《网站制作 · 课程大纲》", "provider": "进阶工作台", "url": "", "type": "PPT", "level": "全阶段", "note": "在「下载中心」一键生成，含五大阶段与全部模块，可直接改配色用于自己的分享。", "local": true },
+      { "title": "Web 开发课程课件（含 PPT 下载）", "provider": "中国大学 MOOC", "url": "https://www.icourse163.org/", "type": "PPT", "level": "入门", "note": "搜索「Web 前端开发」「HTML5」等课程，课件区通常提供 PPT / PDF 下载。", "local": false },
+      { "title": "前沿技术分享 PPT 库", "provider": "阿里云开发者社区", "url": "https://developer.aliyun.com/", "type": "PPT", "level": "进阶", "note": "大量技术大会演讲 PPT 可下载，适合了解工程实践与架构话题。", "local": false },
+      { "title": "技术演讲与大会资料", "provider": "InfoQ 中文站", "url": "https://www.infoq.cn/", "type": "PPT", "level": "进阶", "note": "QCon 等大会演讲资料与讲稿，用于建立行业视野。", "local": false },
+      { "title": "前端技术图谱（可导出图片 / PDF）", "provider": "roadmap.sh", "url": "https://roadmap.sh/frontend", "type": "PPT", "level": "全阶段", "note": "把路线图截图或导出，作为 PPT 里的技能全景图非常直观。", "local": false }
+    ],
+    "doc": [
+      { "title": "MDN Web 文档（中文）· 学习区", "provider": "Mozilla", "url": "https://developer.mozilla.org/zh-CN/docs/Learn", "type": "官方文档", "level": "入门", "note": "HTML/CSS/JS 的第一权威参考资料，遇到任何标签或属性先查这里。" },
+      { "title": "The Odin Project", "provider": "开源社区", "url": "https://www.theodinproject.com/", "type": "系统课程", "level": "入门 → 进阶", "note": "免费全栈路线，项目驱动、要求你真写代码，公认最扎实的免费路径之一。" },
+      { "title": "freeCodeCamp 中文学习区", "provider": "freeCodeCamp", "url": "https://www.freecodecamp.org/chinese/learn", "type": "系统课程", "level": "入门", "note": "从响应式网页到前端库，交互式练习 + 认证，适合零基础打底。" },
+      { "title": "现代 JavaScript 教程", "provider": "开源社区（中文版）", "url": "https://zh.javascript.info/", "type": "系统课程", "level": "入门 → 进阶", "note": "讲原理最清楚的 JS 教程，配套练习题，强烈建议通读一遍。" },
+      { "title": "ES6 入门教程", "provider": "阮一峰", "url": "https://es6.ruanyifeng.com/", "type": "官方文档", "level": "进阶", "note": "中文 ES6+ 语法手册，当字典用，遇到新语法先查它。" },
+      { "title": "React 官方中文文档", "provider": "Meta / 社区", "url": "https://zh-hans.react.dev/learn", "type": "官方文档", "level": "进阶", "note": "新版文档以 Hook 为主线，边看边做示例即可。" },
+      { "title": "Node.js 官方学习资源", "provider": "OpenJS Foundation", "url": "https://nodejs.org/zh-cn/learn", "type": "官方文档", "level": "进阶", "note": "服务端入门与最佳实践合集。" },
+      { "title": "菜鸟教程：HTML / CSS / JS", "provider": "菜鸟教程", "url": "https://www.runoob.com/", "type": "速查手册", "level": "入门", "note": "语法速查方便，但要配合 MDN 使用，别只背示例。" },
+      { "title": "Web 开发路线图", "provider": "roadmap.sh", "url": "https://roadmap.sh/", "type": "学习路线", "level": "全阶段", "note": "用来自查知识盲区，别当成必须全部学完的清单。" }
+    ],
+    "video": [
+      { "title": "免费全栈课程合集（英文，配字幕）", "provider": "freeCodeCamp.org", "url": "https://www.youtube.com/@freecodecamp", "type": "视频课程", "level": "入门 → 进阶", "note": "动辄十几小时的完整项目实战，跟着敲一遍胜过看十个短教程。" },
+      { "title": "现代前端与项目实战（英文）", "provider": "Traversy Media", "url": "https://www.youtube.com/@TraversyMedia", "type": "视频课程", "level": "入门 → 进阶", "note": "节奏快、贴近实战，适合了解一个技术「能干什么」。" },
+      { "title": "系统化系列教程（英文）", "provider": "The Net Ninja", "url": "https://www.youtube.com/@NetNinja", "type": "视频课程", "level": "入门 → 进阶", "note": "分集短小、体系清楚，适合按播放列表逐个模块推进。" },
+      { "title": "技术速览与行业动向（英文）", "provider": "Fireship", "url": "https://www.youtube.com/@Fireship", "type": "视频", "level": "进阶", "note": "每集几分钟讲清一个概念，适合建立技术全景认知。" },
+      { "title": "中文前端系统课（B 站搜索）", "provider": "B 站 UP 主合集", "url": "https://search.bilibili.com/all?keyword=前端 零基础 全套教程", "type": "视频课程", "level": "入门", "note": "中文讲解更好入门，挑播放量高、更新新的系列，务必跟着动手。" },
+      { "title": "React 入门实战（B 站搜索）", "provider": "B 站 UP 主合集", "url": "https://search.bilibili.com/all?keyword=React 入门 实战项目", "type": "视频课程", "level": "进阶", "note": "找一个带完整项目的系列，从 0 做到部署。" }
+    ],
+    "book": [
+      { "title": "JavaScript 高级程序设计（第 4 版）", "provider": "人民邮电出版社", "url": "https://book.douban.com/subject/35175321/", "type": "书籍", "level": "进阶", "note": "俗称「红宝书」，JS 体系化学习首选，当工具书反复翻。" },
+      { "title": "CSS 世界", "provider": "张鑫旭 / 电子工业出版社", "url": "https://book.douban.com/subject/27615777/", "type": "书籍", "level": "进阶", "note": "中文 CSS 里最好的一本，把布局和细节讲透了。" },
+      { "title": "你不知道的 JavaScript（上中下）", "provider": "人民邮电出版社", "url": "https://book.douban.com/subject/26351021/", "type": "书籍", "level": "进阶", "note": "深入作用域、原型、异步机制，解决「会用但说不清」的问题。" },
+      { "title": "深入浅出 Node.js", "provider": "朴灵 / 人民邮电出版社", "url": "https://book.douban.com/subject/25768396/", "type": "书籍", "level": "进阶", "note": "理解 Node 的运行机制，后端部分会轻松很多。" },
+      { "title": "图解 HTTP", "provider": "人民邮电出版社", "url": "https://book.douban.com/subject/25863515/", "type": "书籍", "level": "入门 → 进阶", "note": "薄薄一本讲清请求响应、状态码、缓存，前后端联调必备。" },
+      { "title": "代码整洁之道", "provider": "人民邮电出版社", "url": "https://book.douban.com/subject/4199741/", "type": "书籍", "level": "进阶", "note": "决定你写出来的是「能跑的代码」还是「能维护的代码」。" }
+    ]
+  },
+  "projects": [
+    {
+      "title": "项目一：响应式个人介绍页",
+      "level": "入门",
+      "hours": "6-8 小时",
+      "goal": "用一个页面证明你掌握了 HTML 语义化、Flex/Grid 布局与移动端适配。",
+      "stack": ["HTML5", "CSS3", "Flexbox", "媒体查询"],
+      "steps": [
+        "先用纸笔画出手机版结构：头像区 / 简介区 / 技能标签 / 联系方式。",
+        "写 HTML 骨架，只用语义化标签（header / main / section / footer）。",
+        "用移动优先的方式写 CSS：默认样式针对手机，再用 min-width 媒体查询增强桌面版。",
+        "用 Flex 做一行排列，用 Grid 做技能卡片网格。",
+        "加上 hover / focus 状态与过渡动画，提升细节质感。",
+        "用浏览器设备模拟器逐档检查 375 / 768 / 1440 三个宽度。",
+        "用 Lighthouse 跑一次，把可访问性和性能分数刷到 90 以上。",
+        "推到 GitHub Pages 或 Vercel，拿到一个可分享的网址。"
+      ],
+      "deliverables": ["一个线上可访问的网址", "一份源码仓库", "一张移动端 + 桌面端对比截图"]
+    },
+    {
+      "title": "项目二：JavaScript 交互工具站",
+      "level": "入门 → 进阶",
+      "hours": "10-14 小时",
+      "goal": "把 JS 语法变成真实可用的功能，掌握 DOM 操作与异步请求。",
+      "stack": ["JavaScript", "DOM", "fetch", "localStorage"],
+      "steps": [
+        "选题：待办清单 / 记账本 / 汇率换算 / 天气查询 任选其一。",
+        "先写功能清单，例如待办清单要有：添加、勾选、删除、筛选、清空已完成。",
+        "用数组 + 渲染函数组织数据，做到「数据变了就重绘」。",
+        "用 localStorage 做持久化，刷新页面数据不丢。",
+        "若要调用公开接口，用 fetch + async/await，并处理加载中与失败状态。",
+        "做输入校验：空值、超长、重复项都要有提示。",
+        "最后做一次彻底的边界测试：空列表、超长文本、快速连点。"
+      ],
+      "deliverables": ["可交互的网页工具", "源码 + 一份功能说明", "一张功能演示 GIF"]
+    },
+    {
+      "title": "项目三：React 数据看板（商业交付级）",
+      "level": "进阶",
+      "hours": "20-30 小时",
+      "goal": "走完一次接近真实外包的完整流程：需求 → 开发 → 联调 → 上线。",
+      "stack": ["Vite", "React", "React Router", "Tailwind/CSS Modules", "Express", "Supabase/MySQL"],
+      "steps": [
+        "先写一页需求文档：页面清单、字段定义、交互说明，模拟和甲方确认。",
+        "用 Vite 初始化项目，规划目录结构：pages / components / hooks / api / utils。",
+        "定义数据接口契约（字段、类型、错误码），前后端先对齐再写代码。",
+        "实现登录页与鉴权流程，Token 存在安全的位置并处理过期。",
+        "实现列表页：分页、搜索、筛选、排序，注意空状态与加载骨架屏。",
+        "实现图表可视化，数据从后端接口真实读取。",
+        "处理异常与边界：接口失败、权限不足、数据为空。",
+        "用 GitHub Actions 做自动部署，绑定自定义域名并开启 HTTPS。",
+        "输出交付文档：部署说明、账号权限、后续维护建议。"
+      ],
+      "deliverables": ["上线可访问的全栈应用", "前后端源码仓库", "需求与交付文档各一份"]
+    }
+  ],
+  "checklist": [
+    "能不看教程，30 分钟内手写一个两栏响应式卡片布局",
+    "说得清盒模型、Flex 主轴交叉轴、rem 与 px 的区别",
+    "能用 map / filter 处理数组并渲染出列表",
+    "能用 fetch 拿到接口数据并处理加载失败的情况",
+    "能用 Git 完成分支开发、提交、合并与冲突解决",
+    "能独立把项目部署到线上并绑定自己的域名",
+    "能向非技术人员解释你的报价构成"
+  ],
+  "faq": [
+    { "q": "完全没有编程基础，学得会吗？", "a": "能。按阶段一到阶段五的顺序走，前两周只碰 HTML/CSS，不碰框架。真正的门槛不是智力，而是能否坚持每天写 1-2 小时代码并动手敲，而不是只看视频。" },
+    { "q": "要学多久才能接单？", "a": "按每天 2 小时、每周 5 天的节奏，大约 8-10 周可以完成阶段一到阶段三，具备接静态页 / 落地页单子的能力；到阶段五完成后可接带后台的小型系统。注意：第一单建议低价 + 换作品与好评。" },
+    { "q": "先学 Vue 还是 React？", "a": "选哪个都行，重点是先吃透一个。中文社区 Vue 资料更多、上手更顺；React 在海外远程岗位与外贸独立站生态中更常见。本工作站按 React 编排，思路可迁移。" },
+    { "q": "需要买服务器吗？", "a": "不需要。静态站点用 Vercel / Netlify 免费额度就够。只有需要后端和数据库时才考虑云服务器或 Supabase 之类的托管服务。" },
+    { "q": "网站做出来怎么变成钱？", "a": "三条主路：一是给本地中小企业做官网 / 落地页（客单价 2000-20000 元）；二是给外贸公司做独立站（客单价更高，且能打包 SEO 与运营）；三是自己做站挂广告或卖货。作品集和获客渠道在「模块五 · 交付与接单」里有详细拆解。" }
+  ]
+}

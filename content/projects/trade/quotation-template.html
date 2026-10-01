@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Quotation Template</title>
+<style>
+  body { font-family: Arial, "Microsoft YaHei", sans-serif; color: #222; margin: 24px; font-size: 13px; }
+  .head { display: flex; justify-content: space-between; align-items: flex-start; border-bottom: 3px solid #22c1a4; padding-bottom: 12px; }
+  .head h1 { margin: 0; font-size: 22px; letter-spacing: 1px; color: #0d7a68; }
+  .seller { text-align: right; line-height: 1.7; color: #555; }
+  .meta { display: flex; justify-content: space-between; margin: 18px 0 10px; line-height: 1.8; }
+  .meta div { width: 48%; }
+  table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+  th, td { border: 1px solid #ccc; padding: 7px 9px; }
+  th { background: #eef7f5; text-align: left; }
+  td.num, th.num { text-align: right; }
+  .terms { margin-top: 18px; line-height: 1.9; }
+  .terms b { color: #0d7a68; }
+  .sign { margin-top: 34px; display: flex; justify-content: space-between; }
+  .sign div { width: 46%; border-top: 1px solid #999; padding-top: 6px; color: #666; }
+  .note { margin-top: 16px; padding: 10px 12px; background: #fff8e6; border-left: 3px solid #e0a800; font-size: 12px; color: #6b5a1e; }
+</style>
+</head>
+<body>
+  <div class="head">
+    <h1>QUOTATION</h1>
+    <div class="seller">
+      <b>[Your Company Name]</b><br>
+      [Address, City, Province, China]<br>
+      Tel: [+86-xxx] &nbsp; Email: [sales@yourdomain.com]<br>
+      Web: [www.yourdomain.com]
+    </div>
+  </div>
+
+  <div class="meta">
+    <div>
+      <b>To:</b><br>
+      [Buyer Company Name]<br>
+      [Buyer Address]<br>
+      Attn: [Contact Person]
+    </div>
+    <div>
+      <b>Quotation No.:</b> [QT-2026-0001]<br>
+      <b>Date:</b> [2026-10-01]<br>
+      <b>Valid Until:</b> [30 days from date]<br>
+      <b>Currency:</b> [USD]
+    </div>
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th style="width:38px">No.</th>
+        <th>Description</th>
+        <th>Model / Spec</th>
+        <th class="num">Qty (pcs)</th>
+        <th class="num">Unit Price</th>
+        <th class="num">Amount</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>1</td><td>[Product name in English]</td><td>[Model, material, size, color]</td><td class="num">500</td><td class="num">12.80</td><td class="num">6,400.00</td></tr>
+      <tr><td>2</td><td>[Product name in English]</td><td>[Model, material, size, color]</td><td class="num">200</td><td class="num">18.50</td><td class="num">3,700.00</td></tr>
+      <tr><td colspan="5" class="num"><b>TOTAL</b></td><td class="num"><b>10,100.00</b></td></tr>
+    </tbody>
+  </table>
+
+  <div class="terms">
+    <p><b>Price Term:</b> FOB [Shanghai / Ningbo / Shenzhen], China (Incoterms 2020)</p>
+    <p><b>MOQ:</b> 100 pcs per model &nbsp;|&nbsp; <b>Lead Time:</b> 25-30 days after deposit received</p>
+    <p><b>Payment:</b> 30% T/T deposit, 70% balance against copy of B/L</p>
+    <p><b>Packing:</b> Standard export carton, [x] pcs per carton, carton size [L*W*H] cm</p>
+    <p><b>Certificates:</b> [CE / RoHS / FDA / None] &nbsp;|&nbsp; <b>Warranty:</b> [12] months</p>
+    <p><b>Remarks:</b> Prices are subject to final confirmation. Exchange rate fluctuation over 3% may require re-quotation.</p>
+  </div>
+
+  <div class="note">
+    自查清单：① 单价 × 数量是否等于金额？② 各项金额加起来是否等于 TOTAL？③ 贸易术语与下面的费用承担是否一致？
+    ④ 有效期是否写明？⑤ 认证情况是否与产品实际一致？（新手最常栽在第 ⑤ 条）
+  </div>
+
+  <div class="sign">
+    <div>Seller: [Your Company] (signature &amp; stamp)</div>
+    <div>Buyer: [Buyer Company] (signature &amp; stamp)</div>
+  </div>
+</body>
+</html>

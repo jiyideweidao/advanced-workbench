@@ -1,0 +1,17 @@
+{
+  "name": "advanced-workbench",
+  "version": "1.0.0",
+  "description": "进阶工作台 — 网站制作 / 外贸 / 个人IP / AI变现 / 视频制作 五大知识库桌面应用",
+  "main": "main.js",
+  "author": "Advanced Workbench",
+  "license": "MIT",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder --win portable"
+  },
+  "devDependencies": {
+    "electron": "^44.5.1"
+  }
+}

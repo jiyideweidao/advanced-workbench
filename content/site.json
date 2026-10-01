@@ -1,0 +1,88 @@
+{
+  "app": {
+    "name": "进阶工作台",
+    "en": "Advanced Workbench",
+    "version": "1.0.0",
+    "slogan": "五大硬技能 · 一套可执行的学习系统",
+    "description": "把「做网站 / 做外贸 / 做个人IP / 用AI变现 / 做视频」五条变现路径，拆成有目录、有资源、有项目、可下载的完整学习库。",
+    "updated": "2026-10-01"
+  },
+  "hero": {
+    "kicker": "离线可用 · 本地知识库",
+    "title": "你的变现技能进阶工作台",
+    "subtitle": "五条路径，从零到可交付。每条路径都配：学习路线图、章节目录、精选资源（PPT / 文档 / 视频 / 书籍）、可下载资料包与真实项目示例。",
+    "primaryAction": "开始学习",
+    "secondaryAction": "查看全部下载"
+  },
+  "stats": [
+    { "value": "5", "label": "知识领域" },
+    { "value": "26", "label": "学习模块" },
+    { "value": "110", "label": "课程条目" },
+    { "value": "116", "label": "精选资源" },
+    { "value": "15", "label": "实战项目" }
+  ],
+  "howto": [
+    { "step": "01", "title": "选一条路径", "desc": "五条路径可并行，但建议先主攻一条，4-8 周打通闭环，再叠加第二条。" },
+    { "step": "02", "title": "按路线图推进", "desc": "每个领域都有分阶段路线图，标明周期与产出物，照着走就不会迷路。" },
+    { "step": "03", "title": "看目录 + 用资源", "desc": "章节目录告诉你学什么，资源清单告诉你去哪学：官方文档、系统课程、视频、书籍。" },
+    { "step": "04", "title": "做项目 + 下载资料", "desc": "每个领域都有可下载的项目示例与资料包（PPT / 手册 / 清单 / 代码）。" }
+  ],
+  "method": [
+    { "title": "产出导向", "desc": "每一阶段都必须产出一个可展示的东西：一个页面、一份报价单、一条视频、一个作品链接。" },
+    { "title": "20/80 资源法", "desc": "每个主题只精读 1 份权威文档 + 1 门系统课程 + 1 本书，其余当字典查。" },
+    { "title": "公开交付", "desc": "把学习成果发到公开平台。做网站就上线，做外贸就发开发信，做视频就发布——反馈是最好的老师。" },
+    { "title": "每 2 周复盘", "desc": "用内置的项目检查清单自测，没通过就回到对应模块补课。" }
+  ],
+  "similarProjects": {
+    "note": "开工前在 GitHub 上调研过同类开源项目。结论：成熟项目多为「通用笔记/知识库」，没有现成的「五大变现技能 + 项目示例 + 可下载资料」工作站，因此本项目采用 Electron 自建。以下为调研结果，供你继续挖矿。",
+    "items": [
+      {
+        "name": "Couleur-Share/GuiZhi（归知）",
+        "url": "https://github.com/Couleur-Share/GuiZhi",
+        "stars": "约 34",
+        "what": "本地优先的 AI 个人知识库桌面应用：多源采集、全文与语义混合检索、AI 摘要问答、AI 编译的 Wiki 知识网络。",
+        "learn": "如果你想给本工作站加「全文检索 + AI 问答」，可以读它的检索与本地存储实现。"
+      },
+      {
+        "name": "Trilium Notes",
+        "url": "https://github.com/TriliumNext/Trilium",
+        "stars": "10k+",
+        "what": "老牌分层笔记桌面应用，专注构建大型个人知识库，支持树状结构、脚本化、属性继承。",
+        "learn": "树状知识组织、关系图、笔记模板的经典参考。"
+      },
+      {
+        "name": "2hmedSabry/Media-Reader-App",
+        "url": "https://github.com/2hmedSabry/Media-Reader-App",
+        "stars": "约 2",
+        "what": "把本地视频课程与文档变成无干扰学习库，带学习进度跟踪、离线播放、倍速与截图。",
+        "learn": "「本地课程播放器 + 进度跟踪」的交互设计可以直接借鉴。"
+      },
+      {
+        "name": "wang-zilei/Memora",
+        "url": "https://github.com/wang-zilei/Memora",
+        "stars": "约 2",
+        "what": "把大模型对话自动转成结构化知识卡片的 Tauri 桌面工具，浏览器扩展抓取 + 桌面端沉淀。",
+        "learn": "Tauri 方案比 Electron 更省内存，未来瘦身时可考虑迁移。"
+      },
+      {
+        "name": "zhoushu44/LLM-Wiki-Pro（ZenWiki）",
+        "url": "https://github.com/zhoushu44/LLM-Wiki-Pro",
+        "stars": "约 1",
+        "what": "基于 LLM 的个人知识库桌面应用，让 AI 阅读文档并自动编译维护结构化 Wiki。",
+        "learn": "「知识编译而非每次检索」的思路，适合做学习笔记自动整理。"
+      },
+      {
+        "name": "ourafrica/our-africa-desktop",
+        "url": "https://github.com/ourafrica/our-africa-desktop",
+        "stars": "0",
+        "what": "离线优先的 LMS 桌面应用，无网络环境下访问课程、跟踪进度、发放证书。",
+        "learn": "离线优先 LMS 的数据模型（课程/进度/证书）参考。"
+      }
+    ]
+  },
+  "disclaimer": [
+    "本站内容为学习方法论与资源索引，不构成投资、法律、税务或贸易合规建议。涉及外贸资质、外汇、出口退税、海关申报等，请以中国商务部、海关总署、外汇管理局与当地主管部门的最新规定为准。",
+    "所有外部链接均指向公开可访问的官方网站或平台首页，打开时会调用系统默认浏览器。链接内容与可用性由第三方提供，可能随时间变化。",
+    "请遵守各平台的服务条款与版权规定，转载、商用前务必取得授权。"
+  ]
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; script-src 'self'; connect-src 'none'">
+<title>进阶工作台 · Advanced Workbench</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="app">
+  <aside class="sidebar">
+    <div class="brand" id="brand">
+      <div class="brand-mark"><span>▶</span></div>
+      <div class="brand-text">
+        <strong>进阶工作台</strong>
+        <span>Advanced Workbench</span>
+      </div>
+    </div>
+
+    <div class="search-box">
+      <input id="search" type="search" placeholder="搜索资源 / 课程 / 项目…" autocomplete="off" spellcheck="false">
+    </div>
+
+    <nav class="nav" id="nav"></nav>
+
+    <div class="sidebar-foot">
+      <div class="foot-row">
+        <button class="mini-btn" id="btn-downloads" type="button">下载中心</button>
+        <button class="mini-btn" id="btn-programs" type="button">程序目录</button>
+      </div>
+      <div class="foot-row">
+        <button class="mini-btn" id="btn-hide" type="button">最小化到托盘</button>
+        <button class="mini-btn danger" id="btn-quit" type="button">退出程序</button>
+      </div>
+      <p class="foot-hint">关闭窗口 = 退出程序<br>最小化 = 隐藏到系统托盘</p>
+    </div>
+  </aside>
+
+  <main class="main" id="view"></main>
+</div>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<div class="overlay" id="overlay"></div>
+
+<script src="js/app.js"></script>
+</body>
+</html>
