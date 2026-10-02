@@ -14,6 +14,8 @@
 [![Runtime Deps](https://img.shields.io/badge/runtime%20dependencies-0-brightgreen?style=flat-square)](package.json)
 [![Offline](https://img.shields.io/badge/offline-first-blueviolet?style=flat-square)](#这是什么)
 
+[简体中文](README.md) · [English](README.en.md)
+
 [这是什么](#这是什么) · [界面预览](#界面预览) · [快速开始](#快速开始) ·
 [下载与导出](#下载与导出) · [项目结构](#项目结构) · [二次开发](#二次开发)
 
